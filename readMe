@@ -1,0 +1,19 @@
+#codes to run terminal
+ 
+#step 1.  npm run dev for the backend
+#step 2.  npm run dev for the frontend
+
+
+
+
+This demo uses:
+
+- Metamask
+- Hardhat
+- Infura
+- ViteJs
+- Tailwind CSS
+- Solidity
+- EthersJs
+- Faucet
+- Stripe

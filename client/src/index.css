@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+/* FOR MAIN HOMEPAGE  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+
+:root {
+  --navbar-background: #fff;
+  --navbar-text-color: #800080;
+  --navbar-text-color-hover: #DA70D6;
+  --navbar-bg-color-btn: #800080;
+  --navbar-bg-color-btn-hover: #a200a2;
+  --navbar-text-color-btn: #fff;
+  --navbar-logo: #800080;
+  --navbar-logo-span-text: #fff;
+  --navbar-logo-span-bg: #800080;
+
+  --navbar-box-shadow: #DA70D6;
+  
+  --theme-Icon: #800080;
+
+  --nav-toggler: #800080;
+
+  --scroll-bar: #2b002b;
+
+  /* first section */
+
+
+  }
+
+  [data-theme="dark"] {
+    --navbar-background: #2b002b;
+    --navbar-text-color: #fff;
+    --navbar-text-color-hover: #BDB5D5;
+    --navbar-bg-color-btn: #fff;
+    /* --navbar-bg-color-btn-hover: whitesmoke; */
+    --navbar-text-color-btn: #800080;
+    --theme-Icon: #fff;
+    --navbar-logo: #fff;
+
+    --navbar-logo-span-text: #800080;
+    --navbar-logo-span-bg: #fff;
+
+    --navbar-box-shadow: #fff;
+    --nav-toggler: #fff;
+
+    --scroll-bar: #ddd;
+
+    /* first section */
+
+
+  }
+
+  * html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+
+  
+  * {
+    scroll-behavior: smooth;
+  }
+  
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  
+  /* Style for the scrollbar */
+  body::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #5e005e;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+  section {
+    height: 100vh;
+    margin-top: 1rem;
+  }
