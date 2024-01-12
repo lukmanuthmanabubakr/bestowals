@@ -62,7 +62,6 @@ const NavbarMainHome = ({ switchTheme }) => {
             Possibility
           </NavLink>
           <NavLink to="/blog">
-            {" "}
             <span>
               <AiFillFund />
             </span>{" "}
