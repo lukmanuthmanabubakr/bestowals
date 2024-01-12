@@ -30,10 +30,6 @@ const NavbarMainHome = ({ switchTheme }) => {
       : setToggleIcon("nav_toggler");
   };
 
-  // const switchTheme = () => {
-  //   const newTheme = myTheme === "light" ? "dark" : "light";
-  //   setMyTheme(newTheme);
-  // };
 
   return (
     <nav className="bestowal_navbar">

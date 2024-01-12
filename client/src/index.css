@@ -12,49 +12,48 @@
 
 
 :root {
-  --navbar-background: #fff;
-  --navbar-text-color: #800080;
-  --navbar-text-color-hover: #DA70D6;
-  --navbar-bg-color-btn: #800080;
-  --navbar-bg-color-btn-hover: #a200a2;
+  --navbar-background: #29f0b4;
+  --navbar-text-color: #002;
+  --navbar-bg-color-btn: #002;
   --navbar-text-color-btn: #fff;
-  --navbar-logo: #800080;
+  --navbar-text-color-hover: #fff;
+  --navbar-logo: #002;
   --navbar-logo-span-text: #fff;
-  --navbar-logo-span-bg: #800080;
-
-  --navbar-box-shadow: #DA70D6;
+  --navbar-logo-span-bg: #002;
   
-  --theme-Icon: #800080;
+  --theme-Icon: #002;
 
-  --nav-toggler: #800080;
+  --nav-toggler: #002;
 
   --scroll-bar: #2b002b;
 
   /*My  first section */
 
+  --hero-big: #fff;
+
+
 
   }
 
   [data-theme="dark"] {
-    --navbar-background: #2b002b;
+    --navbar-background: #002;
     --navbar-text-color: #fff;
-    --navbar-text-color-hover: #BDB5D5;
+    --navbar-text-color-hover: #29f0b4;
     --navbar-bg-color-btn: #fff;
-    /* --navbar-bg-color-btn-hover: whitesmoke; */
-    --navbar-text-color-btn: #800080;
+    --navbar-text-color-btn: #002;
     --theme-Icon: #fff;
     --navbar-logo: #fff;
 
-    --navbar-logo-span-text: #800080;
+    --navbar-logo-span-text: #002;
     --navbar-logo-span-bg: #fff;
 
-    --navbar-box-shadow: #fff;
+    /* --navbar-box-shadow: #fff; */
     --nav-toggler: #fff;
 
     --scroll-bar: #ddd;
 
-    /* first section */
-
+    /*My first section */
+    --hero-big: #29f0b4;
 
   }
 
@@ -91,11 +90,11 @@
   
   /* Style for the scrollbar */
   body::-webkit-scrollbar {
-    width: 4px;
+    width: 5px;
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #5e005e;
+    background-color: #002;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;

@@ -9,6 +9,7 @@ import Contact from '../contact/Contact';
 import Cta from  '../../components/cta/Cta';
 import { Link } from 'react-router-dom';
 import NavbarMainHome from "../../components/navbar/NavbarMainHome"
+import lines1 from "../../assets/linesImage1.png"
 
 
 const Header = () => (
@@ -43,8 +44,10 @@ const Header = () => (
   
   <section className='headerSections'>
     <div className='headerImage'>
-     <h1>Hello</h1>
-  
+      <h1 className='heroBig'>Ideas Forge Paths, Market Echoes the Unseen Symphony</h1>
+      <img src={lines1} alt='lines1'  className='theHeaderImage'/>
+
+      
     </div>
   </section>
 </>

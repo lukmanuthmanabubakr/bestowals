@@ -1,6 +1,44 @@
 .headerSections {
   /* background: var(--navbar-background); */
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/grandpa.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
 }
-.headerSections h1{
- 
+.headerSections .headerImage{
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity by changing the last value (0.5 in this case) */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 10rem;
+  padding-left: 5rem;
+}
+
+.headerSections .heroBig{
+    color: var(--hero-big);
+    font-size: 4rem;
+    font-weight: 900;
+    width: 50vw;
+}
+.headerSections .headerImage .theHeaderImage{
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  animation: moveUpDown 2s infinite alternate;
+  transition: transform 0.3s ease;
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
