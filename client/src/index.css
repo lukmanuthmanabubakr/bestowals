@@ -19,6 +19,7 @@
   --navbar-logo: #555555;
   --navbar-logo-span-text: #F9EBB2;
   --navbar-logo-span-bg: #555555;
+
   
   --theme-Icon: #555555;
 
@@ -28,7 +29,8 @@
 
   /*My  first section */
 
-  --hero-big: #F9EBB2;
+  --hero-big-gradient-1: #F9EBB2;
+  --hero-big-gradient-2: #ADD8E6;
 
 
 
@@ -51,8 +53,8 @@
     --scroll-bar: #ddd;
 
     /*My first section */
-    --hero-big: #919191;
-
+    --hero-big-gradient-1: #F9EBB2;
+    --hero-big-gradient-2: #008080;
   }
 
   * html {
