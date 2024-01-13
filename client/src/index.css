@@ -12,48 +12,46 @@
 
 
 :root {
-  --navbar-background: #29f0b4;
-  --navbar-text-color: #002;
-  --navbar-bg-color-btn: #002;
-  --navbar-text-color-btn: #fff;
-  --navbar-text-color-hover: #fff;
-  --navbar-logo: #002;
-  --navbar-logo-span-text: #fff;
-  --navbar-logo-span-bg: #002;
+  --navbar-background: #F9EBB2;
+  --navbar-text-color: #555555;
+  --navbar-bg-color-btn: #555555;
+  --navbar-text-color-btn: #F9EBB2;
+  --navbar-logo: #555555;
+  --navbar-logo-span-text: #F9EBB2;
+  --navbar-logo-span-bg: #555555;
   
-  --theme-Icon: #002;
+  --theme-Icon: #555555;
 
-  --nav-toggler: #002;
+  --nav-toggler: #555555;
 
-  --scroll-bar: #2b002b;
+  --scroll-bar: #555555;
 
   /*My  first section */
 
-  --hero-big: #fff;
+  --hero-big: #F9EBB2;
 
 
 
   }
 
   [data-theme="dark"] {
-    --navbar-background: #002;
-    --navbar-text-color: #fff;
-    --navbar-text-color-hover: #29f0b4;
-    --navbar-bg-color-btn: #fff;
-    --navbar-text-color-btn: #002;
-    --theme-Icon: #fff;
-    --navbar-logo: #fff;
+    --navbar-background: #555555;
+    --navbar-text-color: #F9EBB2;
+    --navbar-bg-color-btn: #F9EBB2;
+    --navbar-text-color-btn: #555555;
+    --theme-Icon: #F9EBB2;
+    --navbar-logo: #F9EBB2;
 
-    --navbar-logo-span-text: #002;
-    --navbar-logo-span-bg: #fff;
+    --navbar-logo-span-text: #555555;
+    --navbar-logo-span-bg: #F9EBB2;
 
     /* --navbar-box-shadow: #fff; */
-    --nav-toggler: #fff;
+    --nav-toggler: #F9EBB2;
 
     --scroll-bar: #ddd;
 
     /*My first section */
-    --hero-big: #29f0b4;
+    --hero-big: #919191;
 
   }
 

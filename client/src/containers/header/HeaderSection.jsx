@@ -10,6 +10,7 @@ import Cta from  '../../components/cta/Cta';
 import { Link } from 'react-router-dom';
 import NavbarMainHome from "../../components/navbar/NavbarMainHome"
 import lines1 from "../../assets/linesImage1.png"
+import lines2 from "../../assets/layer-slider-line-2-removebg-preview.png"
 
 
 const Header = () => (
@@ -47,6 +48,7 @@ const Header = () => (
       <h1 className='heroBig'>Ideas Forge Paths, Market Echoes the Unseen Symphony</h1>
       <img src={lines1} alt='lines1'  className='theHeaderImage'/>
 
+      <img src={lines2} alt='lines1'  className='theHeaderImage2'/>
       
     </div>
   </section>

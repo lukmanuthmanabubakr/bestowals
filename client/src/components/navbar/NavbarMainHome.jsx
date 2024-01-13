@@ -14,7 +14,6 @@ import "./navbarMainHome.css";
 
 const NavbarMainHome = ({ switchTheme }) => {
   const { connect, address } = useStateContext();
-  // const [myTheme, setMyTheme] = useLocalStorage("theme" ? "dark" : "light");
   const [active, setActive] = useState("bestowal-Features");
   const [toggleIcon, setToggleIcon] = useState("nav_toggler");
 
@@ -132,3 +131,4 @@ const NavbarMainHome = ({ switchTheme }) => {
 };
 
 export default NavbarMainHome;
+
