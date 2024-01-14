@@ -39,12 +39,15 @@
 --button-background-color-hover: #fff;
 
 
+/* My first Section */
+
+  --headerImage-bg: #f7f9fd;
 
 
+  --hero-big-gradient-1: #5e74ed;
+  --hero-big-gradient-2: #000;
 
-
-
-
+  --second-content: #7d8ef0;
 
 
 
@@ -87,6 +90,15 @@
 
 
   /*My  first section */
+  --headerImage-bg: #090d14;
+
+  
+  --hero-big-gradient-2: #59aaff;
+  --hero-big-gradient-2: #26d962;
+
+
+  --second-content: #6f8cbe;
+
 
   }
 
@@ -114,6 +126,7 @@
     font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
   }
   
   html,

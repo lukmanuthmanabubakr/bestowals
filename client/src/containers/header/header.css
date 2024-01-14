@@ -7,5 +7,25 @@
   background-size: cover;
   background-position: center;
   position: relative;
-
+  background: var(--headerImage-bg);
+}
+.headerSections .headerImage{
+  padding-top: 4rem;
+  padding-left: 4rem;
+}
+.headerSections .headerImage .earlyAccess {
+  margin-top: 5rem;
+  font-size: 4rem;
+  font-weight: 900;
+  width: 50vw;
+  background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+.headerSections .headerImage .industryLeading{
+  color: var(--second-content);
+  font-size: 1.3rem;
+  width: 50vw;
 }

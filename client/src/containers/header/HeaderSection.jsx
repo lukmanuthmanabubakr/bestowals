@@ -1,13 +1,13 @@
 import './header.css';
 import assets from '../../assets';
 import Brand from '../../components/brand/Brand';
-import About from '../about/About';
+import About from '../about/About'; 
 import Features from '../features/Features';
 import Possibility from '../possibility/Possibility';
 import Blog from '../blog/Blog';
 import Contact from '../contact/Contact';
 import Cta from  '../../components/cta/Cta';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import NavbarMainHome from "../../components/navbar/NavbarMainHome"
 import lines1 from "../../assets/linesImage1.png"
 import lines2 from "../../assets/layer-slider-line-2-removebg-preview.png"
@@ -45,6 +45,12 @@ const Header = () => (
   
   <section className='headerSections'>
     <div className='headerImage'>
+      <h1 className='earlyAccess'>Get early access to the ideas of tomorrow</h1>
+      <p className='industryLeading'>Highly-vetted Web3 projects you can trust. Supported by industry-leading creators and funds.</p>
+      
+      <NavLink>
+        
+      </NavLink>
     </div>
   </section>
 </>
