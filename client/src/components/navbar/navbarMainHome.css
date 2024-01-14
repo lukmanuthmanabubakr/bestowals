@@ -63,7 +63,7 @@
   display: none;
 }
 .bestowal_navbar .bestowal-Features a:hover{
-  color: var(--navbar-text-color-hover);
+  color: var(--navbar-logo--hover);
 }
 .bestowal_navbar .bestowal-Features a{
   transition: all 400ms ease;
@@ -104,6 +104,7 @@
   -moz-transform: translateY(-5px);
   -ms-transform: translateY(-5px);
   -o-transform: translateY(-5px);
+  color:  var(--theme-Icon-hover);
 }
 
 .bestowal_navbar .nav_toggler div {
@@ -243,7 +244,8 @@
 
 @media (width: 768px) {
   .bestowal-Features {
-    height: 43vh;    
+    height: 43vh;  
+    top: 10vh;  
   }
 }
 @media (width: 600px) {

@@ -45,11 +45,6 @@ const Header = () => (
   
   <section className='headerSections'>
     <div className='headerImage'>
-      <h1 className='heroBig'>Ideas Forge Paths, Market Echoes the Unseen <span>Symphony</span></h1>
-      <img src={lines1} alt='lines1'  className='theHeaderImage'/>
-
-      <img src={lines2} alt='lines1'  className='theHeaderImage2'/>
-      
     </div>
   </section>
 </>
