@@ -12,24 +12,73 @@
 
 
 :root {
-  --navbar-background: #090d14;
+  --navbar-background: #f7f9fd;
   --navbar-text-color: #5e74ed;
-  --navbar-logo--hover: #fff;
+  --navbar-logo--hover: #090d14;
+  --navbar-logo: #5e74ed;
+  --navbar-logo-span-text: #fff;
+  --navbar-logo-span-bg: #5e74ed;
+
+  --theme-Icon: #5e74ed;
+  --theme-Icon-hover: #090d14;
+
+
+
+  --nav-toggler: #5e74ed;
+  --scroll-bar: #ddd;
+
+
+  
+/* btn */
+--button-border-color: #5e74ed;
+--button-text-color: #fff;
+--button-background-color: #5e74ed;
+
+--button-border-color-hover: #fff;
+--button-text-color-hover: #5e74ed;
+--button-background-color-hover: #fff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  [data-theme="dark"] {
+    
+  --navbar-background: #090d14;
+  --navbar-text-color: #fff;
+  --navbar-logo--hover: #5e74ed;
   --navbar-logo: #5e74ed;
   --navbar-logo-span-text: #fff;
   --navbar-logo-span-bg: #5e74ed;
 
   
-  --theme-Icon: #5e74ed;
-  --theme-Icon-hover: #fff;
+  --theme-Icon: #fff;
+  --theme-Icon-hover: #5e74ed;
 
   --nav-toggler: #5e74ed;
 
   --scroll-bar: #5e74ed;
 
   /* btn */
-  --button-border-color: #5e74ed;
-  --button-text-color: #5e74ed;
+  --button-border-color: #fff;
+  --button-text-color: #fff;
   --button-background-color: #090d14;
 
   --button-border-color-hover: #5e74ed;
@@ -38,38 +87,6 @@
 
 
   /*My  first section */
-
-
-
-  }
-
-  [data-theme="dark"] {
-    --navbar-background: #f7f9fd;
-    --navbar-text-color: #5e74ed;
-    --navbar-logo--hover: #090d14;
-    --navbar-logo: #5e74ed;
-    --navbar-logo-span-text: #fff;
-    --navbar-logo-span-bg: #5e74ed;
-
-    --theme-Icon: #5e74ed;
-    --theme-Icon-hover: #090d14;
-
-
-
-    --nav-toggler: #5e74ed;
-    --scroll-bar: #ddd;
-
-
-    
-  /* btn */
-  --button-border-color: #5e74ed;
-  --button-text-color: #fff;
-  --button-background-color: #5e74ed;
-
-  --button-border-color-hover: #fff;
-  --button-text-color-hover: #5e74ed;
-  --button-background-color-hover: #fff;
-
 
   }
 
