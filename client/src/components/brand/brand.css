@@ -1,12 +1,18 @@
-.gpt3__brand {
+.sectionTwo {
+    background: var(--section-two-bg);
+  }
+  
+  .sectionTwo .sectionTwoMain {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    overflow: hidden;
+    animation: mySlide 8s linear infinite;
+    -webkit-animation: mySlide 8s linear infinite;
+    animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
-
-.gpt3__brand div {
-    flex: 1;
+  
+  .sectionTwo div {
+    flex: 0 0 auto;
     max-width: 150px;
     min-width: 120px;
     margin: 1rem;
@@ -14,4 +20,15 @@
     cursor: pointer;
     justify-content: center;
     align-items: center;
-}
+  }
+  
+  @keyframes mySlide {
+    0% {
+      margin-left: 100%;
+    }
+  
+    100% {
+      margin-left: -100%;
+    }
+  }
+  
