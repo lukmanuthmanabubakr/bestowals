@@ -2,17 +2,61 @@
   /* background: var(--navbar-background); */
   margin: 0;
   padding: 0;
+  background-image: url("../../assets/grandpa.jpeg");
   background-repeat: no-repeat;
-  height: 110vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   position: relative;
-  background: var(--headerImage-bg);
+
 }
 .headerSections .headerImage{
-  padding-top: 4rem;
-  padding-left: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 5rem;
+  padding-left: 5rem;
 }
+
+.headerSections .headerImage .theHeaderImage{
+  position: absolute;
+  top: 5rem;
+  left: 70%;
+  animation: rotateAnimation 5s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.headerSections .headerImage .theHeaderImage2{
+  position: absolute;
+  top: 28rem;
+  height: 13rem;
+  left: 50%;
+  animation: moveUpDown 2s infinite alternate;
+  -webkit-animation: moveUpDown 2s infinite alternate;
+}
+
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px); 
+  }
+}
+
+
+
 .headerSections .headerImage .earlyAccess {
   margin-top: 5rem;
   font-size: 4rem;
@@ -28,4 +72,921 @@
   color: var(--second-content);
   font-size: 1.3rem;
   width: 50vw;
+  margin-bottom: 4rem;
 }
+.headerSections .headerImage .myHeroPart{
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  border: 2px solid var(--button-border-color);
+  cursor: pointer;
+  width: 15vw;
+  justify-content: center;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.headerSections .headerImage .myHeroPart span{
+  padding-left: 8px;
+  display: inline-block;
+  animation: moveLeftToRight 2s linear infinite;
+}
+
+.headerSections .headerImage .myHeroPart:hover {
+  background-color: var(--button-background-color-hover);
+  color: var(--button-text-color-hover);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 2px solid var(--button-border-color-hover);
+}
+
+.headerSections .headerImage .myHeroPart span:hover{
+
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* Adjust the distance the icon moves to the right */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 5rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.8rem;
+    width: 60vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 25vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  .headerSections .headerImage .theHeaderImage2{
+    position: absolute;
+    top: 25rem;
+    height: 12rem;
+    left: 50%;
+    animation: moveUpDown 2s infinite alternate;
+    -webkit-animation: moveUpDown 2s infinite alternate;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    width: 70vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.6rem;
+    width: 55vw;
+    margin-bottom: 5rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 25vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 953px) {
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 30vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+    .headerSections .headerImage .theHeaderImage{
+      position: absolute;
+      top: 5rem;
+      left: 70%;
+      animation: rotateAnimation 5s linear infinite;
+      -webkit-animation: rotateAnimation 5s linear infinite;
+}
+  }
+  .headerSections .headerImage .theHeaderImage{
+    position: absolute;
+    top: 5rem;
+    left: 80%;
+    animation: rotateAnimation 5s linear infinite;
+  }
+}
+@media (width: 800px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.4rem;
+    width: 70vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 35vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 791px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3.3rem;
+    font-weight: 900;
+    width: 76vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.6rem;
+    width: 70vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 35vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .headerSections .headerImage .theHeaderImage{
+    position: absolute;
+    top: 3rem;
+    left: 75%;
+    animation: rotateAnimation 5s linear infinite;
+  }
+}
+
+@media (width: 712px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.4rem;
+    width: 70vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 35vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 681px) {
+  .headerSections {
+    /* background: var(--navbar-background); */
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/grandpa.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+  }
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.6rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 40vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 679px) {
+  .headerSections {
+    /* background: var(--navbar-background); */
+    margin: 0;
+    padding: 0;
+    background-image: url("../../assets/grandpa.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: auto;
+  }
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.6rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 40vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 634px) {
+  .headerSections .headerImage .theHeaderImage{
+    position: absolute;
+    top: 3rem;
+    left: 75%;
+    height: 8rem;
+    animation: rotateAnimation 5s linear infinite;
+  }
+  .headerSections .headerImage .theHeaderImage2{
+    position: absolute;
+    top: 38rem;
+    height: 13rem;
+    left: 50%;
+    animation: moveUpDown 2s infinite alternate;
+    -webkit-animation: moveUpDown 2s infinite alternate;
+  }
+}
+@media (width: 600px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-left: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 70vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.4rem;
+    width: 70vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 60vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 588px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 95vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.6rem;
+    width: 90vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 50vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    -ms-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+  .headerSections .headerImage .theHeaderImage{
+    position: absolute;
+    top: 13rem;
+    left: 75%;
+    height: 6rem;
+    animation: rotateAnimation 5s linear infinite;
+  }
+  .headerSections .headerImage .theHeaderImage2{
+    position: absolute;
+    top: 38rem;
+    height: 7rem;
+    left: 50%;
+    animation: moveUpDown 2s infinite alternate;
+    -webkit-animation: moveUpDown 2s infinite alternate;
+  }
+}
+@media screen and (max-width: 476px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    padding-left: 1.5rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    width: 95vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.3rem;
+    width: 90vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 60vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  .headerSections .headerImage .theHeaderImage{
+   display: none;
+  }
+  .headerSections .headerImage .theHeaderImage2{
+    display: none;
+  }
+}
+@media screen and (max-width: 464px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    padding-left: 1.5rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    width: 95vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.2rem;
+    width: 90vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 60vw;
+    justify-content: center;
+    padding: 20px 20px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 400px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    padding-left: 1.5rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.2rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 60vw;
+    justify-content: center;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 381px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.2rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 70vw;
+    justify-content: center;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 325px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    padding-top: 6rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    width: 90vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.2rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 80vw;
+    justify-content: center;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 6rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 282px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-left: 1rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    width: 80vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.2rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 80vw;
+    justify-content: center;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+}
+/* @media screen and (max-width: 325px) {
+  .headerSections .headerImage{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 6rem;
+    padding-left: 1rem;
+  }
+  .headerSections .headerImage .earlyAccess {
+    margin-top: 5rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    width: 90vw;
+    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 2rem;
+    line-height: 1;
+  }
+  .headerSections .headerImage .industryLeading{
+    color: var(--second-content);
+    font-size: 1.2rem;
+    width: 80vw;
+    margin-bottom: 3rem;
+  }
+  .headerSections .headerImage .myHeroPart{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid var(--button-border-color);
+    cursor: pointer;
+    width: 90vw;
+    justify-content: center;
+    padding: 15px 15px;
+    font-weight: bold;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+} */

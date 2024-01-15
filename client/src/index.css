@@ -12,42 +12,40 @@
 
 
 :root {
-  --navbar-background: #f7f9fd;
-  --navbar-text-color: #5e74ed;
-  --navbar-logo--hover: #090d14;
-  --navbar-logo: #5e74ed;
-  --navbar-logo-span-text: #fff;
-  --navbar-logo-span-bg: #5e74ed;
+  --navbar-background: #F9EBB2;
+  --navbar-text-color: #555555;
+  --navbar-logo--hover: #444;
+  --navbar-logo: #555555;
+  --navbar-logo-span-text: #F9EBB2;
+  --navbar-logo-span-bg: #555555;
 
-  --theme-Icon: #5e74ed;
-  --theme-Icon-hover: #090d14;
+  --theme-Icon: #555555;
+  --theme-Icon-hover: #444;
 
 
 
-  --nav-toggler: #5e74ed;
-  --scroll-bar: #ddd;
+  --nav-toggler: #555555;
+  --scroll-bar: #F9EBB2;
 
 
   
 /* btn */
---button-border-color: #5e74ed;
---button-text-color: #fff;
---button-background-color: #5e74ed;
+--button-border-color: #555555;
+--button-text-color: #555555;
+--button-background-color: #F9EBB2;
 
---button-border-color-hover: #fff;
---button-text-color-hover: #5e74ed;
---button-background-color-hover: #fff;
+--button-border-color-hover: #555555;
+--button-text-color-hover: #F9EBB2;
+--button-background-color-hover: #555555;
 
 
 /* My first Section */
 
-  --headerImage-bg: #f7f9fd;
 
+--hero-big-gradient-1: #FFF;
+--hero-big-gradient-2: #F9EBB2;
 
-  --hero-big-gradient-1: #5e74ed;
-  --hero-big-gradient-2: #000;
-
-  --second-content: #7d8ef0;
+  --second-content: #FDF7E1;
 
 
 
@@ -64,40 +62,39 @@
 
   [data-theme="dark"] {
     
-  --navbar-background: #090d14;
-  --navbar-text-color: #fff;
-  --navbar-logo--hover: #5e74ed;
-  --navbar-logo: #5e74ed;
-  --navbar-logo-span-text: #fff;
-  --navbar-logo-span-bg: #5e74ed;
+  --navbar-background: #555555;
+  --navbar-text-color: #F9EBB2;
+  --navbar-logo--hover: #F7E392;
+  --navbar-logo: #F9EBB2;
+  --navbar-logo-span-text: #555555;
+  --navbar-logo-span-bg: #F9EBB2;
 
   
-  --theme-Icon: #fff;
-  --theme-Icon-hover: #5e74ed;
+  --theme-Icon: #F9EBB2;
+  --theme-Icon-hover: #F7E392;
 
-  --nav-toggler: #5e74ed;
+  --nav-toggler: #F9EBB2;
 
-  --scroll-bar: #5e74ed;
+  --scroll-bar: #F9EBB2;
 
   /* btn */
-  --button-border-color: #fff;
-  --button-text-color: #fff;
-  --button-background-color: #090d14;
+  --button-border-color: #F9EBB2;
+  --button-text-color: #F9EBB2;
+  --button-background-color: #555555;
 
-  --button-border-color-hover: #5e74ed;
-  --button-text-color-hover: #fff;
-  --button-background-color-hover: #5e74ed;
+  --button-border-color-hover: #555555;
+  --button-text-color-hover: #555555;
+  --button-background-color-hover: #F9EBB2;
 
 
   /*My  first section */
-  --headerImage-bg: #090d14;
+  --headerImage-bg: #555555;
 
   
-  --hero-big-gradient-2: #59aaff;
-  --hero-big-gradient-2: #26d962;
+  --hero-big-gradient-1: #888;
+  --hero-big-gradient-2: #F9EBB2;
 
-
-  --second-content: #6f8cbe;
+  --second-content: #d5d5d5;
 
 
   }
@@ -140,7 +137,7 @@
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: #5e74ed;
+    background-color: #555555;
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;

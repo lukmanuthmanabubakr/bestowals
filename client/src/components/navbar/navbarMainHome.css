@@ -164,10 +164,10 @@
   }
   .bestowal-Features {
     position: fixed;
-    top: 6.7vh;
+    top: 10vh;
     right: 0;
     width: 50%;
-    height: 30vh;
+    height: 45vh;
     overflow: auto;
     /* background: red; */
     background: var(--navbar-background);
