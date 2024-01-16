@@ -42,6 +42,13 @@ import  slack from './slack.png';
 import  dropbox from './dropbox.png';
 import  shopify from './shopify.png';
 import  freshCare from './freshCare.png';
+import  polygon from './polygon-renew.png';
+import  solana from './solana-renew.png';
+import  arbitrium from './Arbitrium-renew.png';
+import  avalanche from './Avalanvhe-renew.png';
+import  ethereum from './ethereum-renew.png';
+import  starknet from './starknet-renew.png';
+
 
 
 
@@ -70,6 +77,7 @@ export default{
   slack, 
   dropbox, 
   shopify,
+  polygon,
   freshCare,
 };
 

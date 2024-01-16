@@ -50,6 +50,10 @@
   /* Section two */
 
   --section-two-bg: #F9EBB2;
+  --section-two-text: #555555;
+
+
+  
 
 
 
@@ -103,6 +107,7 @@
   /* Section two */
 
   --section-two-bg: #555555;
+  --section-two-text: #F9EBB2;
 
 
   }

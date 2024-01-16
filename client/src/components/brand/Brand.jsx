@@ -4,6 +4,7 @@ import "./brand.css";
 
 const Brand = () => (
   <div className="sectionTwo">
+    <p className="raiseCapital"> RAISE CAPITAL ACROSS ALL MAIN BLOCKCHAIN NETWORKS</p>
     <article className="sectionTwoMain">
       <div>
         <img src={assets.google} alt="Google" />
@@ -18,6 +19,9 @@ const Brand = () => (
         <img src={assets.shopify} alt="Shopify" />
       </div>
     </article>
+    <div>
+        
+    </div>
   </div>
 );
 

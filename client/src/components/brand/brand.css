@@ -1,5 +1,14 @@
 .sectionTwo {
     background: var(--section-two-bg);
+    padding: 1rem;
+  }
+  .sectionTwo .raiseCapital{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--section-two-text);
+    font-size: 13px;
+    font-weight: 600;
   }
   
   .sectionTwo .sectionTwoMain {
@@ -7,8 +16,8 @@
     overflow: hidden;
     animation: mySlide 8s linear infinite;
     -webkit-animation: mySlide 8s linear infinite;
-    animation-delay: 2s;
-  -webkit-animation-delay: 2s;
+    animation-delay: -10s;
+  -webkit-animation-delay: -10s;
 }
   
   .sectionTwo div {
@@ -21,7 +30,6 @@
     justify-content: center;
     align-items: center;
   }
-  
   @keyframes mySlide {
     0% {
       margin-left: 100%;
