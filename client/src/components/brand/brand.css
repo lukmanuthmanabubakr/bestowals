@@ -7,8 +7,8 @@
     justify-content: center;
     text-align: center;
     color: var(--section-two-text);
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
   }
   
   .sectionTwo .sectionTwoMain {
@@ -19,6 +19,7 @@
     animation-delay: -10s;
   -webkit-animation-delay: -10s;
 }
+
   
   .sectionTwo div {
     flex: 0 0 auto;

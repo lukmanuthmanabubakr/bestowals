@@ -10,154 +10,136 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 
-
 :root {
-  --navbar-background: #F9EBB2;
+  --navbar-background: #f9ebb2;
   --navbar-text-color: #555555;
   --navbar-logo--hover: #444;
   --navbar-logo: #555555;
-  --navbar-logo-span-text: #F9EBB2;
+  --navbar-logo-span-text: #f9ebb2;
   --navbar-logo-span-bg: #555555;
 
   --theme-Icon: #555555;
   --theme-Icon-hover: #444;
 
-
-
   --nav-toggler: #555555;
-  --scroll-bar: #F9EBB2;
+  --scroll-bar: #f9ebb2;
 
+  /* btn */
+  --button-border-color: #555555;
+  --button-text-color: #555555;
+  --button-background-color: #f9ebb2;
 
-  
-/* btn */
---button-border-color: #555555;
---button-text-color: #555555;
---button-background-color: #F9EBB2;
+  --button-border-color-hover: #555555;
+  --button-text-color-hover: #f9ebb2;
+  --button-background-color-hover: #555555;
 
---button-border-color-hover: #555555;
---button-text-color-hover: #F9EBB2;
---button-background-color-hover: #555555;
+  /* My first Section */
 
+  --hero-big-gradient-1: #fff;
+  --hero-big-gradient-2: #f9ebb2;
 
-/* My first Section */
-
-
---hero-big-gradient-1: #FFF;
---hero-big-gradient-2: #F9EBB2;
-
-  --second-content: #FDF7E1;
+  --second-content: #fdf7e1;
 
   /* Section two */
 
-  --section-two-bg: #F9EBB2;
+  --section-two-bg: #f9ebb2;
   --section-two-text: #555555;
 
+  /* Market Range */
 
-  
+  --market-range: #fefbf1;
+  --market-range-border: #555555;
+  --market-range-money: #555555;
+  --market-range-source: #555555;
+}
 
-
-
-
-
-
-
-
-
-
-
-  }
-
-  [data-theme="dark"] {
-    
+[data-theme="dark"] {
   --navbar-background: #555555;
-  --navbar-text-color: #F9EBB2;
-  --navbar-logo--hover: #F7E392;
-  --navbar-logo: #F9EBB2;
+  --navbar-text-color: #f9ebb2;
+  --navbar-logo--hover: #f7e392;
+  --navbar-logo: #f9ebb2;
   --navbar-logo-span-text: #555555;
-  --navbar-logo-span-bg: #F9EBB2;
+  --navbar-logo-span-bg: #f9ebb2;
 
-  
-  --theme-Icon: #F9EBB2;
-  --theme-Icon-hover: #F7E392;
+  --theme-Icon: #f9ebb2;
+  --theme-Icon-hover: #f7e392;
 
-  --nav-toggler: #F9EBB2;
+  --nav-toggler: #f9ebb2;
 
-  --scroll-bar: #F9EBB2;
+  --scroll-bar: #f9ebb2;
 
   /* btn */
-  --button-border-color: #F9EBB2;
-  --button-text-color: #F9EBB2;
+  --button-border-color: #f9ebb2;
+  --button-text-color: #f9ebb2;
   --button-background-color: #555555;
 
   --button-border-color-hover: #555555;
   --button-text-color-hover: #555555;
-  --button-background-color-hover: #F9EBB2;
-
+  --button-background-color-hover: #f9ebb2;
 
   /*My  first section */
   --headerImage-bg: #555555;
 
-  
   --hero-big-gradient-1: #888;
-  --hero-big-gradient-2: #F9EBB2;
+  --hero-big-gradient-2: #f9ebb2;
 
   --second-content: #d5d5d5;
 
-  
   /* Section two */
 
   --section-two-bg: #555555;
-  --section-two-text: #F9EBB2;
+  --section-two-text: #f9ebb2;
 
+  /* Market range */
 
-  }
-
-  * html {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
-    border: none;
-  }
-
-  
-  * {
-    scroll-behavior: smooth;
-  }
-  
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
-
-  
-  body {
-    font-family: "Open Sans", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    
-  }
-  
-  html,
-  body {
-    scroll-behavior: smooth;
-  }
-  
-  /* Style for the scrollbar */
-  body::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #555555;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
+  --market-range: #555555;
+  --market-range-border: #f9ebb2;
+  --market-range-money: #f9ebb2;
+  --market-range-source: #f9ebb2;
 }
-  section {
-    height: 100vh;
-    margin-top: 1rem;
-  }
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* Style for the scrollbar */
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #555555;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+section {
+  height: 100vh;
+  margin-top: 1rem;
+}

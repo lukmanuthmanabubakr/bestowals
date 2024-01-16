@@ -46,7 +46,7 @@ import  polygon from './polygon-renew.png';
 import  solana from './solana-renew.png';
 import  arbitrium from './Arbitrium-renew.png';
 import  avalanche from './Avalanvhe-renew.png';
-import  ethereum from './ethereum-renew.png';
+import  ethereum from './ethereum-renew-eth.png';
 import  starknet from './starknet-renew.png';
 
 
@@ -78,7 +78,12 @@ export default{
   dropbox, 
   shopify,
   polygon,
+  solana,
+  ethereum,
+  starknet,
+  avalanche,
   freshCare,
+  arbitrium,
 };
 
 
