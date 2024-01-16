@@ -5,7 +5,7 @@ import "./MarketRange.css"
 const MarketRange = () => {
   return (
     <div className='MarketRange'>
-        <div className=''></div>
+        <div className='heelo'></div>
         <div></div>
         <div></div>
         <div></div>
