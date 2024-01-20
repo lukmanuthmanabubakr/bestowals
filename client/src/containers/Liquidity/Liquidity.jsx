@@ -1,9 +1,10 @@
 import React from 'react'
+import "./liquidity.css"
 
-const Liquidity = () => {
+const liquidity = () => {
   return (
-    <div>Liquidity</div>
+    <section className='liquidity'>Liquidity</section>
   )
 }
 
-export default Liquidity
+export default liquidity

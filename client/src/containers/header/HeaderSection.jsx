@@ -13,7 +13,7 @@ import lines1 from "../../assets/linesImage1.png";
 import lines2 from "../../assets/layer-slider-line-2-removebg-preview.png";
 import { FaArrowRight } from "react-icons/fa6";
 import MarketRange from "../../components/MarketRange/MarketRange";
-import Liquidity from "../liquidity/liquidity";
+import Liquidity from "../liquidity/Liquidity";
 
 const Header = () => (
   <>
@@ -69,7 +69,7 @@ const Header = () => (
     </section>
     <Brand />
     <MarketRange/>
-    <Liquidity/>
+    <Liquidity />
     
   </>
 );

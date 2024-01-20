@@ -51,6 +51,10 @@
   --market-range-border: #555555;
   --market-range-money: #555555;
   --market-range-source: #555555;
+
+  /* Liquidity */
+
+  --liquidity-bg: #bacff9;
 }
 
 [data-theme="dark"] {
@@ -96,6 +100,10 @@
   --market-range-border: #f9ebb2;
   --market-range-money: #f9ebb2;
   --market-range-source: #f9ebb2;
+
+    /* Liquidity */
+
+    --liquidity-bg: #19232a;
 }
 
 * html {
