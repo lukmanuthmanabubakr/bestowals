@@ -1,5 +1,4 @@
 .headerSections {
-  /* background: var(--navbar-background); */
   margin: 0;
   padding: 0;
   background-image: url("../../assets/grandpa.jpeg");
@@ -115,7 +114,7 @@
     transform: translateX(0);
   }
   50% {
-    transform: translateX(10px); /* Adjust the distance the icon moves to the right */
+    transform: translateX(10px);
   }
   100% {
     transform: translateX(0);
@@ -421,7 +420,6 @@
 }
 @media screen and (max-width: 681px) {
   .headerSections {
-    /* background: var(--navbar-background); */
     margin: 0;
     padding: 0;
     background-image: url("../../assets/grandpa.jpeg");
@@ -962,49 +960,3 @@
     overflow: hidden;
   }
 }
-/* @media screen and (max-width: 325px) {
-  .headerSections .headerImage{
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding-top: 6rem;
-    padding-left: 1rem;
-  }
-  .headerSections .headerImage .earlyAccess {
-    margin-top: 5rem;
-    font-size: 2.3rem;
-    font-weight: 900;
-    width: 90vw;
-    background: linear-gradient(140deg, var(--hero-big-gradient-1), var(--hero-big-gradient-2));
-    -webkit-background-clip: text;
-    color: transparent;
-    margin-bottom: 2rem;
-    line-height: 1;
-  }
-  .headerSections .headerImage .industryLeading{
-    color: var(--second-content);
-    font-size: 1.2rem;
-    width: 80vw;
-    margin-bottom: 3rem;
-  }
-  .headerSections .headerImage .myHeroPart{
-    display: flex;
-    align-items: center;
-    font-size: 25px;
-    border: 2px solid var(--button-border-color);
-    cursor: pointer;
-    width: 90vw;
-    justify-content: center;
-    padding: 15px 15px;
-    font-weight: bold;
-    color: var(--button-text-color);
-    background-color: var(--button-background-color);
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    position: relative;
-    overflow: hidden;
-  }
-} */
