@@ -270,7 +270,6 @@
     left: 80%;
     animation: rotateAnimation 5s linear infinite;
   }
-}
 @media (width: 800px) {
   .headerSections .headerImage{
     background-color: rgba(0, 0, 0, 0.5);
