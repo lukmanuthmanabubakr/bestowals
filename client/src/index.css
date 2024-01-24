@@ -54,7 +54,13 @@
 
   /* Liquidity */
 
-  --liquidity-bg: #bacff9;
+  --liquidity-bg: #f9ebb2;
+  --knowledge-content-1: #888;
+  --knowledge-content-2: #f9ebb2;
+
+
+  --knowledge-content-text: #555555;
+  
 }
 
 [data-theme="dark"] {
