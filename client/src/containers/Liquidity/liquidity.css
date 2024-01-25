@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   background: var(--liquidity-bg);
+  height: 120vh;
 }
 .liquidity .liquidityHeader {
   padding: 2rem;
