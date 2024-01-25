@@ -7,13 +7,15 @@
   padding: 2rem;
 }
 .liquidityHeader .knowledge {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15rem;
-  align-items: end;
-  padding-top: 5rem;
-  padding-left: 1.5rem;
-  padding-right: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.liquidityHeader .knowledge .knowledge-content {
+  width: 45%;
 }
 .liquidityHeader .knowledge .knowledge-content h1 {
   color: transparent;
@@ -42,7 +44,6 @@
 .liquidityHeader .knowledge .buttonMaker {
   grid-column: 2;
   align-self: end;
-  margin-left: 20rem;
   display: inline-block;
   padding: 10px 20px;
   text-align: center;
@@ -67,14 +68,8 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .liquidityHeader .knowledge {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: end;
-    padding-top: 5rem;
-    padding-left: 1.5rem;
-    padding-right: 0.5rem;
+  .liquidityHeader .knowledge .knowledge-content {
+    width: 50%;
   }
   .liquidityHeader .knowledge .knowledge-content h1 {
     color: transparent;
@@ -84,7 +79,7 @@
       var(--knowledge-content-2)
     );
     -webkit-background-clip: text;
-    font-size: 2.7rem;
+    font-size: 2.8rem;
     border-bottom: 2px solid;
     border-image: linear-gradient(
         140deg,
@@ -92,18 +87,17 @@
         var(--knowledge-content-2)
       )
       1;
-    margin-bottom: 1.8rem;
+    margin-bottom: 2rem;
     font-weight: 600;
   }
   .liquidityHeader .knowledge .knowledge-content p {
     color: var(--knowledge-content-text);
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 500;
   }
   .liquidityHeader .knowledge .buttonMaker {
     grid-column: 2;
     align-self: end;
-    margin-left: 15rem;
     display: inline-block;
     padding: 10px 20px;
     text-align: center;
@@ -114,22 +108,22 @@
     background-color: var(--button-background-color);
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    width: 50%;
   }
-  .liquidityHeader .knowledge .buttonMaker a {
-    font-size: 20px;
-    font-weight: 700;
+  .liquidityHeader .knowledge .buttonMaker:hover {
+    background-color: var(--button-background-color-hover);
+    color: var(--button-text-color-hover);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid var(--button-border-color-hover);
   }
   
+  .liquidityHeader .knowledge .buttonMaker a {
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
-@media screen and (max-width: 1064px) {
-  .liquidityHeader .knowledge {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-    padding-top: 5rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+@media screen and (max-width: 1177px) {
+  .liquidityHeader .knowledge .knowledge-content {
+    width: 70%;
   }
   .liquidityHeader .knowledge .knowledge-content h1 {
     color: transparent;
@@ -147,18 +141,17 @@
         var(--knowledge-content-2)
       )
       1;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-weight: 600;
   }
   .liquidityHeader .knowledge .knowledge-content p {
     color: var(--knowledge-content-text);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
   }
   .liquidityHeader .knowledge .buttonMaker {
     grid-column: 2;
     align-self: end;
-    margin-left: 15rem;
     display: inline-block;
     padding: 10px 20px;
     text-align: center;
@@ -169,21 +162,29 @@
     background-color: var(--button-background-color);
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    width: 50%;
   }
+  .liquidityHeader .knowledge .buttonMaker:hover {
+    background-color: var(--button-background-color-hover);
+    color: var(--button-text-color-hover);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid var(--button-border-color-hover);
+  }
+  
   .liquidityHeader .knowledge .buttonMaker a {
     font-size: 20px;
     font-weight: 700;
   }
 }
-@media screen and (max-width: 1034px) {
+@media screen and (max-width: 727px) {
+  .liquidity .liquidityHeader {
+    padding: 1rem;
+  }
   .liquidityHeader .knowledge {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: end;
-    padding-top: 5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    display: block;
+    padding-top: 2rem;
+  }
+  .liquidityHeader .knowledge .knowledge-content {
+    width: 90%;
   }
   .liquidityHeader .knowledge .knowledge-content h1 {
     color: transparent;
@@ -201,20 +202,18 @@
         var(--knowledge-content-2)
       )
       1;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-weight: 600;
   }
   .liquidityHeader .knowledge .knowledge-content p {
     color: var(--knowledge-content-text);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    margin-bottom: 3rem;
   }
   .liquidityHeader .knowledge .buttonMaker {
-    grid-column: 2;
-    align-self: end;
-    margin-left: 15rem;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -223,7 +222,66 @@
     background-color: var(--button-background-color);
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-    width: 40%;
+  }
+  .liquidityHeader .knowledge .buttonMaker:hover {
+    background-color: var(--button-background-color-hover);
+    color: var(--button-text-color-hover);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid var(--button-border-color-hover);
+  }
+  
+  .liquidityHeader .knowledge .buttonMaker a {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 564px) {
+  .liquidity .liquidityHeader {
+    padding: 1rem;
+  }
+  .liquidityHeader .knowledge {
+    display: block;
+    padding-top: 2rem;
+  }
+  .liquidityHeader .knowledge .knowledge-content {
+    width: 90%;
+  }
+  .liquidityHeader .knowledge .knowledge-content h1 {
+    color: transparent;
+    background: linear-gradient(
+      140deg,
+      var(--knowledge-content-1),
+      var(--knowledge-content-2)
+    );
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(
+        140deg,
+        var(--knowledge-content-1),
+        var(--knowledge-content-2)
+      )
+      1;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  .liquidityHeader .knowledge .knowledge-content p {
+    color: var(--knowledge-content-text);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  .liquidityHeader .knowledge .buttonMaker {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--button-border-color);
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   }
   .liquidityHeader .knowledge .buttonMaker:hover {
     background-color: var(--button-background-color-hover);
@@ -234,97 +292,126 @@
   
   .liquidityHeader .knowledge .buttonMaker a {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
   }
 }
-@media screen and (max-width: 1002px) {
-    .liquidityHeader .knowledge .knowledge-content h1 {
-        color: transparent;
-        background: linear-gradient(
-          140deg,
-          var(--knowledge-content-1),
-          var(--knowledge-content-2)
-        );
-        -webkit-background-clip: text;
-        font-size: 2.3rem;
-        border-bottom: 2px solid;
-        border-image: linear-gradient(
-            140deg,
-            var(--knowledge-content-1),
-            var(--knowledge-content-2)
-          )
-          1;
-        margin-bottom: 1.3rem;
-        font-weight: 500;
-      }
-      .liquidityHeader .knowledge .buttonMaker {
-        grid-column: 2;
-        align-self: end;
-        margin-left: 15rem;
-        display: inline-block;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-        border: 2px solid var(--button-border-color);
-        color: var(--button-text-color);
-        background-color: var(--button-background-color);
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-        width: 50%;
-      }
-      .liquidityHeader .knowledge .buttonMaker a {
-        font-size: 20px;
-        font-weight: 700;
-      }
-} 
-@media screen and (max-width: 988px) {
-    .liquidityHeader .knowledge {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: end;
-        padding-top: 5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-      }
-    .liquidityHeader .knowledge .knowledge-content h1 {
-        color: transparent;
-        background: linear-gradient(
-          140deg,
-          var(--knowledge-content-1),
-          var(--knowledge-content-2)
-        );
-        -webkit-background-clip: text;
-        font-size: 2.3rem;
-        border-bottom: 2px solid;
-        border-image: linear-gradient(
-            140deg,
-            var(--knowledge-content-1),
-            var(--knowledge-content-2)
-          )
-          1;
-        margin-bottom: 1.3rem;
-        font-weight: 500;
-        display: flex;
-    }
-    .liquidityHeader .knowledge .buttonMaker {
-        grid-column: 2;
-        align-self: end;
-        margin-left: 15rem;
-        display: inline-block;
-        padding: 10px 20px;
-        text-align: center;
-        text-decoration: none;
-        cursor: pointer;
-        border: 2px solid var(--button-border-color);
-        color: var(--button-text-color);
-        background-color: var(--button-background-color);
-        border-radius: 5px;
-        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
-        width: 50%;
-      }
-      .liquidityHeader .knowledge .buttonMaker a {
-        font-size: 20px;
-        font-weight: 700;
-      }
-} 
+@media screen and (max-width: 495px) {
+  .liquidity .liquidityHeader {
+    padding: 1rem;
+  }
+  .liquidityHeader .knowledge {
+    display: block;
+    padding-top: 2rem;
+  }
+  .liquidityHeader .knowledge .knowledge-content {
+    width: 100%;
+  }
+  .liquidityHeader .knowledge .knowledge-content h1 {
+    color: transparent;
+    background: linear-gradient(
+      140deg,
+      var(--knowledge-content-1),
+      var(--knowledge-content-2)
+    );
+    -webkit-background-clip: text;
+    font-size: 2rem;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(
+        140deg,
+        var(--knowledge-content-1),
+        var(--knowledge-content-2)
+      )
+      1;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  .liquidityHeader .knowledge .knowledge-content p {
+    color: var(--knowledge-content-text);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  .liquidityHeader .knowledge .buttonMaker {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--button-border-color);
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  .liquidityHeader .knowledge .buttonMaker:hover {
+    background-color: var(--button-background-color-hover);
+    color: var(--button-text-color-hover);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid var(--button-border-color-hover);
+  }
+  
+  .liquidityHeader .knowledge .buttonMaker a {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 449px) {
+  .liquidity .liquidityHeader {
+    padding: .3rem;
+  }
+  .liquidityHeader .knowledge {
+    display: block;
+    padding-top: 2rem;
+  }
+  .liquidityHeader .knowledge .knowledge-content {
+    width: 100%;
+  }
+  .liquidityHeader .knowledge .knowledge-content h1 {
+    color: transparent;
+    background: linear-gradient(
+      140deg,
+      var(--knowledge-content-1),
+      var(--knowledge-content-2)
+    );
+    -webkit-background-clip: text;
+    font-size: 1.6rem;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(
+        140deg,
+        var(--knowledge-content-1),
+        var(--knowledge-content-2)
+      )
+      1;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  .liquidityHeader .knowledge .knowledge-content p {
+    color: var(--knowledge-content-text);
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+  }
+  .liquidityHeader .knowledge .buttonMaker {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--button-border-color);
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  .liquidityHeader .knowledge .buttonMaker:hover {
+    background-color: var(--button-background-color-hover);
+    color: var(--button-text-color-hover);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 2px solid var(--button-border-color-hover);
+  }
+  
+  .liquidityHeader .knowledge .buttonMaker a {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}

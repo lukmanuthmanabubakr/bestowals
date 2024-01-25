@@ -107,9 +107,14 @@
   --market-range-money: #f9ebb2;
   --market-range-source: #f9ebb2;
 
-    /* Liquidity */
+ /* Liquidity */
 
-    --liquidity-bg: #19232a;
+ --liquidity-bg: #555555;
+ --knowledge-content-1: #f9ebb2;
+ --knowledge-content-2: #555555;
+
+
+ --knowledge-content-text: #f9ebb2;
 }
 
 * html {

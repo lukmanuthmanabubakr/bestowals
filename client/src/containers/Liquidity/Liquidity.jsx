@@ -5,9 +5,9 @@ import { NavLink } from "react-router-dom";
 const liquidity = () => {
   return (
     <section className="liquidity">
-      <div className="liquidityHeader">
+      <div className="liquidityHeader" data-aos="fade-right">
         <div className="knowledge">
-          <div className="knowledge-content">
+          <div className="knowledge-content" data-aos="fade-right">
             <h1>Zero knowledge required</h1>
             <p>
               Scroll’s mission is to provide an accessible scaling solution that
@@ -17,7 +17,7 @@ const liquidity = () => {
               experience as easy as possible.
             </p>
           </div>
-          <div className="buttonMaker">
+          <div className="buttonMaker" data-aos="fade-left">
             <button>
               <NavLink>Hello making</NavLink>
             </button>

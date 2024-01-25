@@ -1,4 +1,7 @@
+import React, { useEffect } from 'react'
 import "./header.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import assets from "../../assets";
 import Brand from "../../components/brand/Brand";
 import About from "../about/About";
@@ -15,45 +18,24 @@ import { FaArrowRight } from "react-icons/fa6";
 import MarketRange from "../../components/MarketRange/MarketRange";
 import Liquidity from "../liquidity/Liquidity";
 
-const Header = () => (
-  <>
-    {/* <NavbarMainHome /> */}
-    {/* <div className="bestowal__header section__padding" id="home">
-      <div className="bestowal__header-content">
-        <h1 className="gradient__text">Let&apos;s us know your project idea that you have and bring it to live</h1>
-        <p>Never underestimate the power of the people you already know. Family, friends, coworkers and even acquaintances make a great foundation for your campaign community. Our guide will explain how to use your personal network to create a solid base for your crowdfunding audience. </p>
+const Header = () => {
+  useEffect(() => {
+    AOS.init({duration: "1000", delay: "500"})
+  }, [])
 
-        <div className="bestowal__header-content__input">
-          <Link to="/dashboard"><button type="button">Get Started</button></Link>
-        </div>
-
-        <div className="bestowal__header-content__people">
-          <img src={assets.people} />
-          <p>1,640 people requested access a visit in last 24 hours</p>
-        </div>
-      </div>
-
-      <div className="bestowal__header-image">
-        <img src={assets.global1} />
-      </div>
-    </div>
-  <Brand />
-  <About />
-  <Features />
-  <Possibility />
-  <Cta />
-  <Blog />
-  <Contact /> */}
-
-    <section className="headerSections">
+  return(
+    <>
+      <section className="headerSections">
       <div className="headerImage">
-        <h1 className="earlyAccess">
-          Get early access to the ideas of tomorrow
-        </h1>
-        <p className="industryLeading">
-          Highly-vetted Web3 projects you can trust. Supported by
-          industry-leading creators and funds.
-        </p>
+        <div data-aos="fade-right">
+          <h1 className="earlyAccess">
+            Get early access to the ideas of tomorrow
+          </h1>
+          <p className="industryLeading">
+            Highly-vetted Web3 projects you can trust. Supported by
+            industry-leading creators and funds.
+          </p>
+        </div>
 
         <NavLink to="/hero" className="myHeroPart">
           Go to project{" "}
@@ -68,10 +50,11 @@ const Header = () => (
       </div>
     </section>
     <Brand />
-    <MarketRange/>
+    <MarketRange />
     <Liquidity />
-    
-  </>
-);
+    </>
+  )
+
+};
 
 export default Header;

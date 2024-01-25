@@ -45,7 +45,7 @@ const App = () => {
 
   return (
   <>
-  <PreLoader/>
+  {/* <PreLoader/> */}
     <div className="App" data-theme={myTheme}>
       {/* <div className="gradient__bg">
       </div> */}
