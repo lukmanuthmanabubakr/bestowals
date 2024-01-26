@@ -57,9 +57,9 @@
   --liquidity-bg: #f9ebb2;
   --knowledge-content-1: #888;
   --knowledge-content-2: #f9ebb2;
-
-
   --knowledge-content-text: #555555;
+
+  --liquidity-text: #555555;
   
 }
 
@@ -112,9 +112,10 @@
  --liquidity-bg: #555555;
  --knowledge-content-1: #f9ebb2;
  --knowledge-content-2: #555555;
-
-
  --knowledge-content-text: #f9ebb2;
+
+ --liquidity-text: #f9ebb2;
+ --liquidity-text-p: #f9ebb2;
 }
 
 * html {
