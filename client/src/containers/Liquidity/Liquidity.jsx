@@ -10,15 +10,6 @@ import pest_2 from "../../assets/pest__2.jpeg";
 import pest_3 from "../../assets/pest_3.jpeg";
 
 const liquidity = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  };
 
   return (
     <section className="liquidity">
