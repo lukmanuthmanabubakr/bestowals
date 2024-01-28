@@ -74,6 +74,7 @@
   align-items: center;
   gap: 4rem;
   margin-top: 5rem;
+  padding: 2rem;
 }
 
 .liquidity .card {
@@ -161,7 +162,7 @@
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
-  opacity: 0.7;
+  /* opacity: 0.8; */
 }
 .liquidity .card:hover > .layer {
   opacity: 1;
@@ -229,8 +230,31 @@
     font-size: 20px;
     font-weight: 700;
   }
+
+  .liquidity .card-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+  }
 }
 @media screen and (max-width: 1177px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 230vh;
+  }
+  .liquidity .card-group {
+    display: flex;
+    /* grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem; */
+    flex-direction: column;
+    justify-content: center;
+  }
   .liquidityHeader .knowledge .knowledge-content {
     width: 70%;
   }
@@ -524,3 +548,88 @@
     font-weight: 600;
   }
 }
+
+@media screen and (max-width: 426px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 240vh;
+  }
+  .liquidity .card-group {
+    display: flex;
+    /* grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem; */
+    flex-direction: column;
+    justify-content: center;
+  }
+  .liquidity .card {
+    width: 280px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    transition: all 400ms ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    
+  }
+}
+
+/* @media screen and (max-width: 375px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 200vh;
+  }
+
+} */
+
+@media screen and (max-width: 309px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 240vh;
+  }
+  .liquidity .card-group {
+    display: flex;
+    /* grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem; */
+    flex-direction: column;
+    justify-content: center;
+  }
+  .liquidity .card {
+    width: 230px;
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    transition: all 400ms ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    
+  }
+}
+

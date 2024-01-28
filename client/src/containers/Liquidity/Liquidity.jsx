@@ -33,7 +33,7 @@ const liquidity = () => {
         </div>
       </div>
       <div className="card-group">
-        <div className="card">
+        <div className="card" data-aos="fade-left">
           <img src={pest_1} alt="pest_1 " />
           <div className="layer"></div>
           <div className="info">
@@ -46,7 +46,7 @@ const liquidity = () => {
             <button>Explore</button>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-up">
           <img src={pest_2} alt="pest_1 " />
           <div className="layer"></div>
           <div className="info">
@@ -59,7 +59,7 @@ const liquidity = () => {
             <button>Explore</button>
           </div>
         </div>
-        <div className="card">
+        <div className="card" data-aos="fade-left">
           <img src={pest_3} alt="pest_1 " />
           <div className="layer"></div>
           <div className="info">
