@@ -237,6 +237,7 @@
     align-items: center;
     gap: 4rem;
     margin-top: 5rem;
+    margin-bottom: 3rem;
   }
 }
 @media screen and (max-width: 1177px) {
@@ -311,6 +312,12 @@
 @media screen and (max-width: 727px) {
   .liquidity .liquidityHeader {
     padding: 1rem;
+  }
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 250vh;
   }
   .liquidityHeader .knowledge {
     display: block;
@@ -583,6 +590,15 @@
     -ms-transition: all 400ms ease;
     -o-transition: all 400ms ease;
     
+  }
+}
+
+@media (max-width: 390px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 200vh;
   }
 }
 
