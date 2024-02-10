@@ -52,6 +52,7 @@ const Header = () => {
     <Brand />
     <MarketRange />
     <Liquidity />
+    <Possibility />
     </>
   )
 
