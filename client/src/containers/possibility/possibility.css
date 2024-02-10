@@ -1,13 +1,10 @@
 .bestowal__possibility {
   padding: 0;
   margin: 0;
-  background-image: radial-gradient(
-    circle 250px at center,
-    rgba(85, 85, 85, 0.5),
-    #f9ebb2,
-    #555555
-  );
+  background-image: radial-gradient(    circle 250px at center,    rgba(85, 85, 85, 0.5),    var(--possibilities-bg-1),    var(--possibilities-bg-2));
 }
 .bestowal__possibility .bestowal__container {
   padding: 2rem 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

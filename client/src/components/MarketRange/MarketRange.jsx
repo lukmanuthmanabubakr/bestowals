@@ -4,7 +4,7 @@ import "./MarketRange.css";
 const MarketRange = () => {
   
   return (
-    <div className="marketRange" data-aos="fade-up">
+    <div className="marketRange">
       <div className="theMarketRange">
         <div>
           <p className="money">$49.7M</p>

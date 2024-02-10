@@ -72,7 +72,8 @@
    --exploral-background-color-hover: #555555;
 
    /* Possibilities */
-   /* --possibilities-bg: ; */
+   --possibilities-bg-1: #f9ebb2;
+   --possibilities-bg-2: #555555;
   
 }
 
@@ -141,6 +142,11 @@
   --exploral-border-color-hover: #555555;
   --exploral-text-color-hover: #555555;
   --exploral-background-color-hover: #f9ebb2;
+
+
+     /* Possibilities */
+     --possibilities-bg-1: #555555;
+     --possibilities-bg-2: #f9ebb2;
 }
 
 * html {
