@@ -36,6 +36,10 @@
   border-radius: 1rem;
   cursor: pointer;
   transition: transform 400ms ease;
+  -webkit-transition: transform 400ms ease;
+  -moz-transition: transform 400ms ease;
+  -ms-transition: transform 400ms ease;
+  -o-transition: transform 400ms ease;
 }
 
 .marketRange .theMarketRange div:hover {

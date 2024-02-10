@@ -90,6 +90,10 @@
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
   position: relative;
   overflow: hidden;
+  -webkit-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  -moz-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  -ms-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  -o-transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 
 .headerSections .headerImage .myHeroPart span{

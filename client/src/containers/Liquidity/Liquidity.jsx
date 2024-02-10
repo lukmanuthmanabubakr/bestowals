@@ -25,7 +25,7 @@ const liquidity = () => {
               experience as easy as possible.
             </p>
           </div>
-          <div className="buttonMaker" data-aos="fade-left">
+          <div className="buttonMaker">
             <button>
               <NavLink>Hello making</NavLink>
             </button>
