@@ -9,7 +9,7 @@ const Possibility = () => (
         <img src={Painting} alt="possibility" />
       </div>
       <div className="bestowal__possibility-content">
-        <h4>Request Early Access<br /> to Get Started</h4>
+        <h4>Request Early Access to Get Started</h4>
         <h1>
           The possibilities are  beyond your imagination
         </h1>
