@@ -57,7 +57,7 @@
   }
 
 .bestowal__possibility .bestowal__container .bestowal__possibility-content{
-    padding-top: 14rem;
+    padding-top: 12rem;
 }
 .bestowal__possibility .bestowal__container h4 {
     font-size: 2rem;
@@ -67,5 +67,20 @@
     -webkit-background-clip: text;
     color: transparent;
     line-height: 1.3;
-    bo
+    border-top: 2px solid;
+    border-image: linear-gradient(
+        140deg,
+        var(--possibilities-bg-border-1),
+        var(--possibilities-bg-border-2)
+      )
+      1;
+    margin-bottom: 1rem;
+}
+.bestowal__possibility .bestowal__container p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 50vw;
+    background: linear-gradient(310deg, var(--possibilities-bg-text-1), var(--possibilities-bg-text-2));
+    -webkit-background-clip: text;
+    color: transparent;
 }

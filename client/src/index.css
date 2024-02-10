@@ -78,6 +78,11 @@
   /* Possibilities header*/
   --possibilities-bg-text-1: #555555;
   --possibilities-bg-text-2: #f9ebb2;
+
+
+    /* Possibilities border*/
+    --possibilities-bg-border-1: #f9ebb2;
+    --possibilities-bg-border-2: #555555;
 }
 
 [data-theme="dark"] {
@@ -150,6 +155,10 @@
 
   --possibilities-bg-text-1: #f9ebb2;
   --possibilities-bg-text-2: #555555;
+
+     /* Possibilities border*/
+     --possibilities-bg-border-1: #555555;
+     --possibilities-bg-border-2: #f9ebb2;
 }
 
 * html {
