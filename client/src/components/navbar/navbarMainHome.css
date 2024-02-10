@@ -4,21 +4,21 @@
 }
 
 .bestowal_navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: var(--navbar-background);
-  padding: 1rem 2rem;
-  position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--navbar-background);
+    padding: 1rem 2rem;
+    position: sticky;
     top: 0;
     z-index: 999;
     margin: 0;
-  transition: all 400ms ease;
-  -webkit-transition: all 400ms ease;
-  -moz-transition: all 400ms ease;
-  -ms-transition: all 400ms ease;
-  -o-transition: all 400ms ease;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .bestowal_navbar .bestowal_logo {
   display: flex;

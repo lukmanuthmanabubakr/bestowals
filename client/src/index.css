@@ -60,21 +60,24 @@
   --knowledge-content-text: #555555;
 
   --liquidity-text: #f9ebb2;
-   --liquidity-text-p: #f9ebb2;
+  --liquidity-text-p: #f9ebb2;
 
-   /* exploral */
-   --exploral-border-color: #555555;
-   --exploral-text-color: #555555;
-   --exploral-background-color: #f9ebb2;
- 
-   --exploral-border-color-hover: #555555;
-   --exploral-text-color-hover: #f9ebb2;
-   --exploral-background-color-hover: #555555;
+  /* exploral */
+  --exploral-border-color: #555555;
+  --exploral-text-color: #555555;
+  --exploral-background-color: #f9ebb2;
 
-   /* Possibilities */
-   --possibilities-bg-1: #f9ebb2;
-   --possibilities-bg-2: #555555;
-  
+  --exploral-border-color-hover: #555555;
+  --exploral-text-color-hover: #f9ebb2;
+  --exploral-background-color-hover: #555555;
+
+  /* Possibilities */
+  --possibilities-bg-1: #f9ebb2;
+  --possibilities-bg-2: #555555;
+
+  /* Possibilities header*/
+  --possibilities-bg-text-1: #555555;
+  --possibilities-bg-text-2: #f9ebb2;
 }
 
 [data-theme="dark"] {
@@ -121,21 +124,19 @@
   --market-range-money: #f9ebb2;
   --market-range-source: #f9ebb2;
 
- /* Liquidity */
+  /* Liquidity */
 
- --liquidity-bg: #555555;
- --knowledge-content-1: #f9ebb2;
- --knowledge-content-2: #555555;
- --knowledge-content-text: #f9ebb2;
+  --liquidity-bg: #555555;
+  --knowledge-content-1: #f9ebb2;
+  --knowledge-content-2: #555555;
+  --knowledge-content-text: #f9ebb2;
 
- --liquidity-text: #f9ebb2;
- --liquidity-text-p: #f9ebb2;
+  --liquidity-text: #f9ebb2;
+  --liquidity-text-p: #f9ebb2;
 
+  /* exploral */
 
- /* exploral */
-
-
- --exploral-border-color: #f9ebb2;
+  --exploral-border-color: #f9ebb2;
   --exploral-text-color: #f9ebb2;
   --exploral-background-color: #555555;
 
@@ -143,10 +144,12 @@
   --exploral-text-color-hover: #555555;
   --exploral-background-color-hover: #f9ebb2;
 
+  /* Possibilities */
+  --possibilities-bg-1: #555555;
+  --possibilities-bg-2: #f9ebb2;
 
-     /* Possibilities */
-     --possibilities-bg-1: #555555;
-     --possibilities-bg-2: #f9ebb2;
+  --possibilities-bg-text-1: #f9ebb2;
+  --possibilities-bg-text-2: #555555;
 }
 
 * html {
