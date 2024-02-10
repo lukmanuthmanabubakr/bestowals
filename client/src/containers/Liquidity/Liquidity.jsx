@@ -43,7 +43,7 @@ const liquidity = () => {
               eveniet pariatur harum excepturi amet saepe placeat, eaque
               officiis dignissimos beatae?
             </p>
-            <button>Explore</button>
+            <button className="exploral">Explore</button>
           </div>
         </div>
         <div className="card" data-aos="fade-up">
@@ -56,7 +56,7 @@ const liquidity = () => {
               eveniet pariatur harum excepturi amet saepe placeat, eaque
               officiis dignissimos beatae?
             </p>
-            <button>Explore</button>
+            <button className="exploral">Explore</button>
           </div>
         </div>
         <div className="card" data-aos="fade-up">
@@ -69,7 +69,7 @@ const liquidity = () => {
               eveniet pariatur harum excepturi amet saepe placeat, eaque
               officiis dignissimos beatae?
             </p>
-            <button>Explore</button>
+            <button className="exploral">Explore</button>
           </div>
         </div>
       </div>
@@ -78,3 +78,5 @@ const liquidity = () => {
 };
 
 export default liquidity;
+
+

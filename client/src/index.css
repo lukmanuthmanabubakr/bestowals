@@ -61,6 +61,15 @@
 
   --liquidity-text: #f9ebb2;
    --liquidity-text-p: #f9ebb2;
+
+   /* exploral */
+   --exploral-border-color: #555555;
+   --exploral-text-color: #555555;
+   --exploral-background-color: #f9ebb2;
+ 
+   --exploral-border-color-hover: #555555;
+   --exploral-text-color-hover: #f9ebb2;
+   --exploral-background-color-hover: #555555;
   
 }
 
@@ -117,6 +126,18 @@
 
  --liquidity-text: #f9ebb2;
  --liquidity-text-p: #f9ebb2;
+
+
+ /* exploral */
+
+
+ --exploral-border-color: #f9ebb2;
+  --exploral-text-color: #f9ebb2;
+  --exploral-background-color: #555555;
+
+  --exploral-border-color-hover: #555555;
+  --exploral-text-color-hover: #555555;
+  --exploral-background-color-hover: #f9ebb2;
 }
 
 * html {

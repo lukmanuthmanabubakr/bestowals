@@ -146,18 +146,33 @@
   margin-top: 3px;
   color: var(--liquidity-text-p);
 }
-.liquidity .info button {
-  background: #490ccc;
+.liquidity .info .exploral{
+  border: 2px solid var(--exploral-border-color);
+  color: var(--exploral-text-color);
+  background-color: var(--exploral-background-color);
   border: none;
-  padding: 8px 12px;
+  padding: 8px 16px;
   font-weight: bold;
   border-radius: 8px;
-  margin-top: 8px;
+  margin-top: 10px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+  transition: all 400ms ease;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
 }
+
+
+.liquidity .info .exploral:hover{
+  border: 2px solid var(--exploral-border-color-hover);
+  color: var(--exploral-text-color-hover);
+  background-color: var(--exploral-background-color-hover);
+}
+
 .liquidity .card:hover,
 .liquidity .card:hover img,
 .liquidity .card:hover layer {
@@ -603,6 +618,22 @@
     margin: 0;
     background: var(--liquidity-bg);
     height: 200vh;
+  }
+}
+@media (max-width: 375px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 250vh;
+  }
+}
+@media (max-width: 320px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 300vh;
   }
 }
 
