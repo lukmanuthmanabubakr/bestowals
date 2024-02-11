@@ -76,8 +76,8 @@
   --possibilities-bg-2: #555555;
 
   /* Possibilities header*/
-  --possibilities-bg-text-1: #555555;
-  --possibilities-bg-text-2: #f9ebb2;
+  --possibilities-bg-text-1: #f9ebb2;
+  --possibilities-bg-text-2: #555555;
 
 
     /* Possibilities border*/
@@ -153,8 +153,8 @@
   --possibilities-bg-1: #555555;
   --possibilities-bg-2: #f9ebb2;
 
-  --possibilities-bg-text-1: #f9ebb2;
-  --possibilities-bg-text-2: #555555;
+  --possibilities-bg-text-1: #555555;
+  --possibilities-bg-text-2: #f9ebb2;
 
      /* Possibilities border*/
      --possibilities-bg-border-1: #555555;
