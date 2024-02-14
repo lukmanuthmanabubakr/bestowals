@@ -54,7 +54,7 @@ const Header = () => {
     <MarketRange />
     <Liquidity />
     <Possibility />
-    <Creativity />
+    {/* <Creativity /> */}
     </>
   )
 
