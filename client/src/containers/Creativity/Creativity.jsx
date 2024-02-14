@@ -8,7 +8,7 @@ const Creativity = () => {
         <p>Creativity</p>
       </div>
       <div className="about-heading">
-        <h1 className="gradient__text">
+        <h1 className="">
           The possibilities are beyond your imagination
         </h1>
         <p>Explore the Library</p>
