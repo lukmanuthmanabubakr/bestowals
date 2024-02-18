@@ -170,7 +170,7 @@
 
 
 .liquidity .info .exploral:hover{
-  border: 2px solid var(--exploral-border-color-hover);
+  /* border: 2px solid var(--exploral-border-color-hover); */
   color: var(--exploral-text-color-hover);
   background-color: var(--exploral-background-color-hover);
 }
