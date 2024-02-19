@@ -8,7 +8,7 @@ import ProjectAccount from '../components/ProjectAccount';
 function Home() {
   const [isdonate, setdonate] = useState(false);
   const [isgetFunds,setgetFunds]=useState(false);
-  const navigate = useNavigate(); // Access the history object
+  const navigate = useNavigate(); 
   const navigate1=useNavigate();
 
   function handledonatechange() {
