@@ -15,7 +15,7 @@ function Home() {
     setdonate(prevValue => {
       return !prevValue;
     });
-    navigate("/ProjectAccount"); // Update the route to '/donate'
+    navigate("/ProjectAccount"); 
   }
 
   function handlegetFundsChange(){
