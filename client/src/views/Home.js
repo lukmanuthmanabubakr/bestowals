@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useHistory hook
+import { useNavigate } from 'react-router-dom';
 
 import StartProject from '../components/StartProject';
 import CreateProjectAccount from '../components/CreateProjectAccount';
