@@ -89,6 +89,9 @@
   box-shadow: var(--box-shadow-liquidityAspectTwo);
 }
 
+
+
+
 @media screen and (max-width: 1200px) {
   .liquidity {
     padding: 0;
