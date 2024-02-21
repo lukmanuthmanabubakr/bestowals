@@ -72,7 +72,13 @@
   font-weight: 700;
 }
 
-.
+
+  /* liquidityAspectTwo */
+
+
+  .liquidityAspectTwo{
+    
+  }
 
 @media screen and (max-width: 1200px) {
   .liquidityHeader .knowledge .knowledge-content {
