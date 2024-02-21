@@ -78,7 +78,7 @@
 
 /* liquidityAspectTwo */
 
-.liquidityAspectTwo {
+/* .liquidityAspectTwo {
   background: var(--liquidityAspectTwo-bg);
   height: 70vh;
   margin-top: 2rem;
@@ -87,7 +87,27 @@
   padding-right: 2rem;
   padding-bottom: 1rem;
   box-shadow: var(--box-shadow-liquidityAspectTwo);
+} */
+
+.liquidityAspectTwo {
+  position: relative;
+  background: var(--liquidityAspectTwo-bg);
+  height: 70vh;
+  margin-top: 2rem;
+  padding: 2rem 2rem 1rem 1rem;
+  box-shadow: var(--box-shadow-liquidityAspectTwo);
 }
+
+.liquidityAspectTwo::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top: 300px solid transparent;
+  border-right: 300px solid #ff0000;
+
+}
+
 
 
 
