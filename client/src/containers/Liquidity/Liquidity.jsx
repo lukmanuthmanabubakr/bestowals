@@ -32,47 +32,7 @@ const liquidity = () => {
           </div>
         </div>
       </div>
-      {/* <div className="card-group">
-        <div className="card" data-aos="fade-up">
-          <img src={pest_1} alt="pest_1 " />
-          <div className="layer"></div>
-          <div className="info">
-            <h1>SingaPore</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              eveniet pariatur harum excepturi amet saepe placeat, eaque
-              officiis dignissimos beatae?
-            </p>
-            <button className="exploral">Explore</button>
-          </div>
-        </div>
-        <div className="card" data-aos="fade-up">
-          <img src={pest_2} alt="pest_1 " />
-          <div className="layer"></div>
-          <div className="info">
-            <h1>SingaPore</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              eveniet pariatur harum excepturi amet saepe placeat, eaque
-              officiis dignissimos beatae?
-            </p>
-            <button className="exploral">Explore</button>
-          </div>
-        </div>
-        <div className="card" data-aos="fade-up">
-          <img src={pest_3} alt="pest_1 " />
-          <div className="layer"></div>
-          <div className="info">
-            <h1>SingaPore</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-              eveniet pariatur harum excepturi amet saepe placeat, eaque
-              officiis dignissimos beatae?
-            </p>
-            <button className="exploral">Explore</button>
-          </div>
-        </div>
-      </div> */}
+     
     </section>
   );
 };
