@@ -34,8 +34,8 @@ const liquidity = () => {
       </div>
      
 
-     <div>
-      
+     <div className="liquidityAspectTwo">
+
      </div>
     </section>
   );
