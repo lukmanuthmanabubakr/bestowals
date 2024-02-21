@@ -79,13 +79,14 @@
 /* liquidityAspectTwo */
 
 .liquidityAspectTwo {
-  background: red;
+  background: var(--liquidityAspectTwo-bg);
   height: 70vh;
   margin-top: 2rem;
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 2rem;
   padding-bottom: 1rem;
+  box-shadow: var(--box-shadow-liquidityAspectTwo);
 }
 
 @media screen and (max-width: 1200px) {

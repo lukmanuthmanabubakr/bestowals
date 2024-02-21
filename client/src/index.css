@@ -64,6 +64,7 @@
 
   /* liquidityAspectTwo */
   --liquidityAspectTwo-bg: #f9ebb2;
+  --box-shadow-liquidityAspectTwo: 0 0 10px rgba(0, 0, 0, 0.1);
 
 
   
@@ -122,6 +123,10 @@
 
   --liquidity-text: #f9ebb2;
   --liquidity-text-p: #f9ebb2;
+
+    /* liquidityAspectTwo */
+    --liquidityAspectTwo-bg: #555555;
+    --box-shadow-liquidityAspectTwo: 0 0 10px rgba(255, 255, 255, 0.1);
 
   
 }
