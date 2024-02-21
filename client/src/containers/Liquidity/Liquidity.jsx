@@ -33,6 +33,10 @@ const liquidity = () => {
         </div>
       </div>
      
+
+     <div>
+      
+     </div>
     </section>
   );
 };
