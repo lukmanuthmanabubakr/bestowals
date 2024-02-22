@@ -78,16 +78,7 @@
 
 /* liquidityAspectTwo */
 
-/* .liquidityAspectTwo {
-  background: var(--liquidityAspectTwo-bg);
-  height: 70vh;
-  margin-top: 2rem;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-  box-shadow: var(--box-shadow-liquidityAspectTwo);
-} */
+
 
 .liquidityAspectTwo {
   position: relative;

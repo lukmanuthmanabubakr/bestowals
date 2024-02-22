@@ -35,7 +35,7 @@ const liquidity = () => {
      
 
      <div className="liquidityAspectTwo">
-        
+        <h1>Possibilities</h1>
      </div>
     </section>
   );
