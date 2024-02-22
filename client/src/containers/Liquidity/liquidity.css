@@ -110,7 +110,14 @@
 .liquidityAspectTwo .possibleHead {
   font-size: 1.5rem;
   font-weight: 900;
-  color: var(--liquidityAspectTwo-head);
+  /* color: var(--liquidityAspectTwo-head); */
+  color: transparent;
+  background: linear-gradient(
+    140deg,
+    var(--knowledge-content-1),
+    var(--knowledge-content-2)
+  );
+  -webkit-background-clip: text;
   display: inline-block;
   border-top: 2px solid;
   border-image: linear-gradient(
