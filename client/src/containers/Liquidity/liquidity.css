@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   background: var(--liquidity-bg);
-  height: 120vh;
+  height: 140vh;
   padding-top: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -83,7 +83,7 @@
 
   position: relative;
   background: var(--liquidityAspectTwo-bg);
-  height: 70vh;
+  height: 80vh;
   margin-top: 2rem;
   padding: 2rem 2rem 1rem 1rem;
   box-shadow: var(--box-shadow-liquidityAspectTwo);
@@ -131,6 +131,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.liquidityAspectTwo .imagination .beyond{
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 1200px) {
