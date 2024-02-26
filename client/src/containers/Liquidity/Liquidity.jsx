@@ -36,7 +36,7 @@ const liquidity = () => {
 
      <div className="liquidityAspectTwo">
         <h1 className="possibleHead">Possibilities</h1>
-        <div>
+        <div >
           <p>The possibilities are beyond your imagination</p>
           <p>Explore the Library</p>
         </div>
