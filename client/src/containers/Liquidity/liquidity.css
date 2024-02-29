@@ -79,8 +79,6 @@
 /* liquidityAspectTwo aspect */
 
 .liquidityAspectTwo {
-
-
   position: relative;
   background: var(--liquidityAspectTwo-bg);
   height: 80vh;
@@ -92,7 +90,6 @@
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
- 
 }
 
 .liquidityAspectTwo::after {
@@ -126,13 +123,13 @@
     )
     1;
 }
-.liquidityAspectTwo .imagination{
+.liquidityAspectTwo .imagination {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.liquidityAspectTwo .imagination .beyond{
+.liquidityAspectTwo .imagination .beyond {
   font-size: 1.8rem;
   font-weight: 800;
 }
@@ -221,7 +218,6 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-   
   }
 }
 @media screen and (max-width: 1177px) {
@@ -229,6 +225,12 @@
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
+    background: var(--liquidity-bg);
+    height: 140vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
   }
 
   .liquidityHeader .knowledge .knowledge-content {
@@ -284,8 +286,6 @@
     font-weight: 700;
   }
   .liquidityAspectTwo {
-
-
     position: relative;
     background: var(--liquidityAspectTwo-bg);
     height: 80vh;
@@ -297,7 +297,6 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-   
   }
 }
 @media screen and (max-width: 727px) {
