@@ -305,7 +305,11 @@
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    /* height: 250vh; */
+    height: 140vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
   }
   .liquidityHeader .knowledge {
     display: block;
