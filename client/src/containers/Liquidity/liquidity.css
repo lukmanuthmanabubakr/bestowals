@@ -226,7 +226,7 @@
     margin: 0;
     background: var(--liquidity-bg);
     background: var(--liquidity-bg);
-    height: 140vh;
+    height: 110vh;
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -288,7 +288,7 @@
   .liquidityAspectTwo {
     position: relative;
     background: var(--liquidityAspectTwo-bg);
-    height: 80vh;
+    height: 60vh;
     margin-top: 4rem;
     padding: 2rem 2rem 1rem 1rem;
     box-shadow: var(--box-shadow-liquidityAspectTwo);
