@@ -229,7 +229,6 @@
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    /* height: 230vh; */
   }
 
   .liquidityHeader .knowledge .knowledge-content {
@@ -283,6 +282,22 @@
   .liquidityHeader .knowledge .buttonMaker a {
     font-size: 20px;
     font-weight: 700;
+  }
+  .liquidityAspectTwo {
+
+
+    position: relative;
+    background: var(--liquidityAspectTwo-bg);
+    height: 80vh;
+    margin-top: 4rem;
+    padding: 2rem 2rem 1rem 1rem;
+    box-shadow: var(--box-shadow-liquidityAspectTwo);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+   
   }
 }
 @media screen and (max-width: 727px) {
