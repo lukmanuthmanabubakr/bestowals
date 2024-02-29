@@ -295,13 +295,25 @@
     -o-border-radius: 1rem;
   }
 }
+@media screen and (max-width: 879px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 110vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+}
 @media screen and (max-width: 727px) {
  
   .liquidity {
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    height: 140vh;
+    height: 120vh;
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
