@@ -209,6 +209,20 @@
     margin-top: 5rem;
     margin-bottom: 3rem;
   }
+  .liquidityAspectTwo {
+    position: relative;
+    background: var(--liquidityAspectTwo-bg);
+    height: 70vh;
+    margin-top: 3rem;
+    padding: 2rem 2rem 1rem 1rem;
+    box-shadow: var(--box-shadow-liquidityAspectTwo);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+   
+  }
 }
 @media screen and (max-width: 1177px) {
   .liquidity {
