@@ -298,9 +298,7 @@
   }
 }
 @media screen and (max-width: 727px) {
-  /* .liquidity .liquidityHeader {
-    padding: 1rem;
-  } */
+ 
   .liquidity {
     padding: 0;
     margin: 0;
