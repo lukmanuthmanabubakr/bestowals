@@ -15,9 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 2rem; */
+  
 }
 .liquidityHeader .knowledge .knowledge-content {
   width: 45%;
