@@ -8,9 +8,7 @@
   padding-right: 2rem;
   padding-bottom: 1rem;
 }
-.liquidity .liquidityHeader {
-  /* padding: 1rem; */
-}
+
 .liquidityHeader .knowledge {
   display: flex;
   justify-content: space-between;
