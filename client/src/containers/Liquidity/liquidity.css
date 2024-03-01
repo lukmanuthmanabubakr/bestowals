@@ -374,6 +374,9 @@
     font-weight: 600;
   }
 }
+@media screen and (max-width: 687px) {
+
+}
 @media screen and (max-width: 564px) {
   .liquidity .liquidityHeader {
   }
