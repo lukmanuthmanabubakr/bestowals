@@ -610,7 +610,24 @@
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    /* height: 240vh; */
+    height: 115vh;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .liquidityAspectTwo {
+    position: relative;
+    background: var(--liquidityAspectTwo-bg);
+    height: 55vh;
+    margin-top: 4rem;
+    padding: 2rem 2rem 1rem 1rem;
+    box-shadow: var(--box-shadow-liquidityAspectTwo);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
 }
 
@@ -619,7 +636,24 @@
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    /* height: 200vh; */
+    height: 115vh;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+  .liquidityAspectTwo {
+    position: relative;
+    background: var(--liquidityAspectTwo-bg);
+    height: 55vh;
+    margin-top: 4rem;
+    padding: 2rem 2rem 8px 8px;
+    box-shadow: var(--box-shadow-liquidityAspectTwo);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
 }
 @media (max-width: 375px) {
@@ -627,15 +661,62 @@
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    /* height: 250vh; */
+    height: 115vh;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+  .liquidityAspectTwo {
+    position: relative;
+    background: var(--liquidityAspectTwo-bg);
+    height: 55vh;
+    margin-top: 4rem;
+    padding: 2rem 2rem 8px 8px;
+    box-shadow: var(--box-shadow-liquidityAspectTwo);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
   }
 }
+
+@media (max-width: 341px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 120vh;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+}
+@media (max-width: 325px) {
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 125vh;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+  }
+}
+
 @media (max-width: 320px) {
   .liquidity {
     padding: 0;
     margin: 0;
     background: var(--liquidity-bg);
-    /* height: 300vh; */
+    height: 125vh;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
   }
 }
 
