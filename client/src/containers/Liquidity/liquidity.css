@@ -375,7 +375,29 @@
   }
 }
 @media screen and (max-width: 687px) {
-
+  .liquidity {
+    padding: 0;
+    margin: 0;
+    background: var(--liquidity-bg);
+    height: 123vh;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+  .liquidityAspectTwo {
+    position: relative;
+    background: var(--liquidityAspectTwo-bg);
+    height: 60vh;
+    margin-top: 4rem;
+    padding: 2rem 2rem 1rem 1rem;
+    box-shadow: var(--box-shadow-liquidityAspectTwo);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
 }
 @media screen and (max-width: 564px) {
   .liquidity .liquidityHeader {
