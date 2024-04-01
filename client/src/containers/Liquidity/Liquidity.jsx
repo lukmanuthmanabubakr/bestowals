@@ -5,9 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./liquidity.css";
 import { NavLink } from "react-router-dom";
 
-
 const liquidity = () => {
-
   return (
     <section className="liquidity">
       <div className="liquidityHeader" data-aos="fade-right">
@@ -29,20 +27,16 @@ const liquidity = () => {
           </div>
         </div>
       </div>
-     
 
-     <div className="liquidityAspectTwo">
+      <div className="liquidityAspectTwo">
         <h1 className="possibleHead">Possibilities</h1>
         <div className="imagination">
-          <div>
-            
-          </div>
+          <p className="beyond">The possibilities are beyond your imagination.</p>
+          <NavLink to="/about">Explore the Library</NavLink>
         </div>
-     </div>
+      </div>
     </section>
   );
 };
 
 export default liquidity;
-
-

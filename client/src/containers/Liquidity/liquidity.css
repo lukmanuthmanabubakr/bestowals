@@ -79,7 +79,7 @@
   background: var(--liquidityAspectTwo-bg);
   height: 80vh;
   margin-top: 4rem;
-  padding: 2rem 2rem 1rem 1rem;
+  padding: 3rem 2.5rem 3rem 2.5rem;
   box-shadow: var(--box-shadow-liquidityAspectTwo);
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
@@ -101,7 +101,7 @@
 }
 
 .liquidityAspectTwo .possibleHead {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   color: transparent;
   background: linear-gradient(
@@ -120,14 +120,16 @@
     1;
 }
 .liquidityAspectTwo .imagination {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .liquidityAspectTwo .imagination .beyond {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 800;
+  width: 50%;
+  color: var(--liquidityBeyond);
 }
 
 @media screen and (max-width: 1200px) {

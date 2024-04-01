@@ -68,6 +68,8 @@
   --box-shadow-liquidityAspectTwo: 0 4px 30px rgba(0, 0, 0, 0.1);
   --liquidityAspectTwo-head: #555555;
 
+  --liquidityBeyond: #555555;
+
   
 }
 
@@ -131,6 +133,8 @@
     --box-shadow-liquidityAspectTwo: 0 0 10px rgba(255, 255, 255, 0.1);
 
     --liquidityAspectTwo-head: #f9ebb2;
+
+    --liquidityBeyond: #f9ebb2;
 
 
   
