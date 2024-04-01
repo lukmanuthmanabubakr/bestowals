@@ -70,6 +70,8 @@
 
   --liquidityBeyond: #555555;
 
+  --liquidityBeyond-hover: #444;
+
   
 }
 
@@ -135,6 +137,7 @@
     --liquidityAspectTwo-head: #f9ebb2;
 
     --liquidityBeyond: #f9ebb2;
+    --liquidityBeyond-hover: #f7e392;
 
 
   

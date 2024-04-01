@@ -32,7 +32,7 @@ const liquidity = () => {
         <h1 className="possibleHead">Possibilities</h1>
         <div className="imagination">
           <p className="beyond">The possibilities are beyond your imagination.</p>
-          <NavLink to="/about">Explore the Library</NavLink>
+          <NavLink to="/about" className="explorer">Explore the Library</NavLink>
         </div>
       </div>
     </section>
