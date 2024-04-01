@@ -5,9 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "./liquidity.css";
 import { NavLink } from "react-router-dom";
 
-import pest_1 from "../../assets/pest_1.jpeg";
-import pest_2 from "../../assets/pest__2.jpeg";
-import pest_3 from "../../assets/pest_3.jpeg";
 
 const liquidity = () => {
 
