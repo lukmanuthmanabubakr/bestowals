@@ -34,6 +34,10 @@ const liquidity = () => {
           <p className="beyond">The possibilities are beyond your imagination.</p>
           <NavLink to="/about" className="explorer">Explore the Library</NavLink>
         </div>
+
+        <div>
+          <div></div>
+        </div>
       </div>
     </section>
   );
