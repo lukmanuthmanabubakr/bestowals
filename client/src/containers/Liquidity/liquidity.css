@@ -160,6 +160,10 @@
   color: var(--liquidityBeyond-hover);
 }
 
+.liquidityAspectTwo .creativity-contents{
+  margin-top: 2rem;
+}
+
 @media screen and (max-width: 1200px) {
   .liquidity {
     padding: 0;

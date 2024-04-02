@@ -35,7 +35,15 @@ const liquidity = () => {
           <NavLink to="/about" className="explorer">Explore the Library</NavLink>
         </div>
 
-        <div>
+        <div className="creativity-contents">
+          <div>
+            <h2>Creativity</h2>
+            <p>The use of imagination or original ideas to create something firm are keen to encourage.</p>
+          </div>
+          <div>
+            <h2>Creativity</h2>
+            <p>The use of imagination or original ideas to create something firm are keen to encourage.</p>
+          </div>
           <div>
             <h2>Creativity</h2>
             <p>The use of imagination or original ideas to create something firm are keen to encourage.</p>
