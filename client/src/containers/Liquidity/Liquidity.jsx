@@ -36,7 +36,10 @@ const liquidity = () => {
         </div>
 
         <div>
-          <div></div>
+          <div>
+            <h2>Creativity</h2>
+            <p>The use of imagination or original ideas to create something firm are keen to encourage.</p>
+          </div>
         </div>
       </div>
     </section>
