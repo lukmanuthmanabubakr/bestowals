@@ -96,8 +96,8 @@
   border-top: 300px solid transparent;
   border-right: 300px solid var(--liquidityAspectTwo-border);
   border-bottom-right-radius: 1rem;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
+  /* -webkit-backdrop-filter: blur(5px); */
 }
 
 .liquidityAspectTwo .possibleHead {
@@ -162,6 +162,8 @@
 
 .liquidityAspectTwo .creativity-contents{
   margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 1200px) {
