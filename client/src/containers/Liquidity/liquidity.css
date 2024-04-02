@@ -88,7 +88,7 @@
   -o-border-radius: 1rem;
 }
 
-.liquidityAspectTwo::after {
+.liquidityAspectTwo::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -96,8 +96,6 @@
   border-top: 300px solid transparent;
   border-right: 300px solid var(--liquidityAspectTwo-border);
   border-bottom-right-radius: 1rem;
-  /* backdrop-filter: blur(5px); */
-  /* -webkit-backdrop-filter: blur(5px); */
 }
 
 .liquidityAspectTwo .possibleHead {
@@ -161,9 +159,10 @@
 }
 
 .liquidityAspectTwo .creativity-contents{
-  margin-top: 2rem;
+  margin-top: 4rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (max-width: 1200px) {
